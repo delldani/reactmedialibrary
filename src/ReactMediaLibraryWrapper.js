@@ -3,7 +3,7 @@ import {
   FileLibraryListItem,
   ReactMediaLibrary,
   FileMeta
-} from "react-media-library";
+} from "./react-media-library";
 
 const ReactMediaLibraryWrapper = () => {
   const [display, setDisplay] = useState(false);
