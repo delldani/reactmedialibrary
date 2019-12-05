@@ -54,8 +54,12 @@ const ReactMediaLibrary = props => {
     React.createElement(
       Modal.Actions,
       null,
-      React.createElement(Button, {
-        label: "Close",
+      //   React.createElement(Button, {
+      //     label: "Close",
+      //     onClick: props.onHide
+      //   })
+      React.createElement("button", {
+        children: "Close",
         onClick: props.onHide
       })
     )
