@@ -29,7 +29,8 @@ const ReactMediaLibraryWrapper = () => {
         fileName: "201702.jpg",
         type: "image/jpeg",
         createdAt: new Date("2019-10-17T03:12:45.018Z"),
-        thumbnailUrl: "C:/Users/delld/Pictures/Áron 2019.11/550.jpg"
+        thumbnailUrl:
+          "https://kep.index.hu/1/0/3064/30645/306458/30645845_bbc7b61aafcc28936f8f219f6240c360_q.jpg"
       },
       {
         _id: 3,
@@ -38,7 +39,8 @@ const ReactMediaLibraryWrapper = () => {
         fileName: "271092.jpg",
         type: "image/jpeg",
         createdAt: new Date("2019-10-17T03:19:33.498Z"),
-        thumbnailUrl: "C:/Users/delld/Pictures/Áron 2019.11/553.jpg"
+        thumbnailUrl:
+          "https://kep.cdn.indexvas.hu/1/0/3062/30621/306219/30621943_ec20650aa1acea5c7da032a15d7d2e84_wm.jpg"
       },
       {
         _id: 4,
