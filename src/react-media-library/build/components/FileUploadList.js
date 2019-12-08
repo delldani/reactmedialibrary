@@ -1,13 +1,13 @@
 import React from "react";
-import Badge from "react-bootstrap/Badge";
+import { Label } from 'semantic-ui-react'
 function renderBadge(status) {
     switch (status) {
         case -1:
-            return (React.createElement(Badge, { variant: "danger" }, "Failed"));
+            return (React.createElement(Label, { color: "red" }, "Failed"));
         case 0:
-            return (React.createElement(Badge, { variant: "secondary" }, "Processing"));
+            return (React.createElement(Label, { color: "yellow" }, "Processing"));
         case 1:
-            return (React.createElement(Badge, { variant: "success" }, "Success"));
+            return (React.createElement(Label, { color: "green" }, "Success"));
     }
     return;
 }
